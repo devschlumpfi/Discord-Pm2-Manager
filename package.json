@@ -1,0 +1,28 @@
+{
+  "name": "discord-pm2-manager",
+  "version": "1.0.0",
+  "description": "Mit diesem Discord-Pm2-Manager kannst du deine Pm2 Prozesse in discord verwalten!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devschlumpfi/Discord-Pm2-Manager.git"
+  },
+  "keywords": [
+    "Discord-Pm2-Manager"
+  ],
+  "author": "devschlumpfi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devschlumpfi/Discord-Pm2-Manager/issues"
+  },
+  "homepage": "https://github.com/devschlumpfi/Discord-Pm2-Manager#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "pm2": "^5.3.0"
+  }
+}
