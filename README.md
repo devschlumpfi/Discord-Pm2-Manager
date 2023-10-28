@@ -5,6 +5,10 @@
 ### Beschreibung
 Der Discord-Pm2-Manager ist ein Discord-Bot, entwickelt um PM2-Prozesse direkt über Discord zu verwalten. Mit diesem Bot können Sie PM2-Prozesse starten, stoppen, neustarten, löschen und Logs anzeigen.
 
+### Voraussetzungen
+- Node.js und npm müssen installiert sein
+- PM2 muss installiert sein. [Hier erfahren Sie, wie Sie PM2 installieren können](https://pm2.keymetrics.io/docs/usage/quick-start/)
+
 ### Installation
 1. Klone dieses Repository: `git clone https://github.com/devschlumpfi/Discord-Pm2-Manager`
 2. Installiere die benötigten Node.js-Pakete: `npm install`
@@ -24,6 +28,10 @@ Der Discord-Pm2-Manager ist ein Discord-Bot, entwickelt um PM2-Prozesse direkt �
 - `/pm2 list`: Listet alle PM2-Prozesse auf.
 - `/pm2 manage`: Verwaltet einen PM2-Prozess mit der angegebenen ID.
 
+### Demonstration
+![Bild 1](images/de-bild1.png)
+![Bild 2](images/de-bild2.png)
+
 ### To-Do Liste
 - [ ] Automatisch aktualisierende Statusnachrichten hinzufügen
 
@@ -31,6 +39,10 @@ Der Discord-Pm2-Manager ist ein Discord-Bot, entwickelt um PM2-Prozesse direkt �
 
 ### Description
 The Discord-Pm2-Manager is a Discord bot developed to manage PM2 processes directly through Discord. With this bot, you can start, stop, restart, delete, and view logs of PM2 processes.
+
+### Prerequisites
+- Node.js and npm must be installed
+- PM2 must be installed. [Learn how to install PM2 here](https://pm2.keymetrics.io/docs/usage/quick-start/)
 
 ### Installation
 1. Clone this repository: `git clone https://github.com/devschlumpfi/Discord-Pm2-Manager`
@@ -50,6 +62,10 @@ The Discord-Pm2-Manager is a Discord bot developed to manage PM2 processes direc
 ### Commands
 - `/pm2 list`: Lists all PM2 processes.
 - `/pm2 manage`: Manages a PM2 process with the specified ID.
+
+### Demonstration
+![Image 1](images/en-image1.png)
+![Image 2](images/en-image2.png)
 
 ### To-Do List
 - [ ] Add automatically updating status messages
