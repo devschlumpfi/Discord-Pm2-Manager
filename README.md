@@ -29,8 +29,8 @@ Der Discord-Pm2-Manager ist ein Discord-Bot, entwickelt um PM2-Prozesse direkt √
 - `/pm2 manage`: Verwaltet einen PM2-Prozess mit der angegebenen ID.
 
 ### Demonstration
-![Bild 1](images/de-bild1.png)
-![Bild 2](images/de-bild2.png)
+![Bild 1](images/de-lang/de-image1.png)
+![Bild 2](images/de-lang/de-image2.png)
 
 ### To-Do Liste
 - [ ] Automatisch aktualisierende Statusnachrichten hinzuf√ºgen
@@ -64,8 +64,8 @@ The Discord-Pm2-Manager is a Discord bot developed to manage PM2 processes direc
 - `/pm2 manage`: Manages a PM2 process with the specified ID.
 
 ### Demonstration
-![Image 1](images/en-image1.png)
-![Image 2](images/en-image2.png)
+![Image 1](images/en-lang/en-image1.png)
+![Image 2](images/en-lang/en-image2.png)
 
 ### To-Do List
 - [ ] Add automatically updating status messages
