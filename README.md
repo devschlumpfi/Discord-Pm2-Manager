@@ -6,7 +6,7 @@
 Der Discord-Pm2-Manager ist ein Discord-Bot, entwickelt um PM2-Prozesse direkt über Discord zu verwalten. Mit diesem Bot können Sie PM2-Prozesse starten, stoppen, neustarten, löschen und Logs anzeigen.
 
 ### Installation
-1. Klone dieses Repository: `git clone https://github.com/IhrBenutzername/Discord-Pm2-Manager`
+1. Klone dieses Repository: `git clone https://github.com/devschlumpfi/Discord-Pm2-Manager`
 2. Installiere die benötigten Node.js-Pakete: `npm install`
 3. Erstelle eine `settings.json` Datei und konfiguriere sie nach deinen Bedürfnissen:
     ```json
@@ -33,7 +33,7 @@ Der Discord-Pm2-Manager ist ein Discord-Bot, entwickelt um PM2-Prozesse direkt �
 The Discord-Pm2-Manager is a Discord bot developed to manage PM2 processes directly through Discord. With this bot, you can start, stop, restart, delete, and view logs of PM2 processes.
 
 ### Installation
-1. Clone this repository: `git clone https://github.com/YourUsername/Discord-Pm2-Manager`
+1. Clone this repository: `git clone https://github.com/devschlumpfi/Discord-Pm2-Manager`
 2. Install the required Node.js packages: `npm install`
 3. Create a `settings.json` file and configure it according to your needs:
     ```json
