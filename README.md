@@ -18,7 +18,7 @@ Der Discord-Pm2-Manager ist ein Discord-Bot, entwickelt um PM2-Prozesse direkt √
         "logsystem": true,
         "onlydm": false,
         "language": "de",
-        "ownerid": "DeineUserID"
+        "ownerids": ["OwnerID", "OwnerID2"]
     }
     ```
 4. Erstelle eine `.env` Datei und f√ºge deinen Discord-Bot-Token hinzu: `TOKEN=deinToken`
@@ -53,7 +53,7 @@ The Discord-Pm2-Manager is a Discord bot developed to manage PM2 processes direc
         "logsystem": true,
         "onlydm": false,
         "language": "en",
-        "ownerid": "YourUserID"
+        "ownerids": ["OwnerID", "OwnerID2"]
     }
     ```
 4. Create a `.env` file and add your Discord bot token: `TOKEN=yourToken`

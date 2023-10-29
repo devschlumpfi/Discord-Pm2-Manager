@@ -29,7 +29,7 @@ module.exports = {
         },
     ],
     run: async (client, interaction) => {
-      if(interaction.user.id !== settings.ownerid) return interaction.reply({ content: "Oupss, It looks like you are not the owner of this bot!", ephemeral: true })
+    if(!settings.ownerids.includes(interaction.user.id)) return interaction.reply({ content: "Oupss, It looks like you are not the owner of this bot!", ephemeral: true })
         const getProcessInfo = () => {
             return new Promise((resolve, reject) => {
                 pm2.list((err, processList) => {
@@ -149,6 +149,7 @@ module.exports = {
 
             client.on('interactionCreate', async interaction => {
                 if (interaction.isButton()) {
+                    try {
                     if (interaction.customId === 'restart') {
                         pm2.restart(id, (err) => {
                             row.components.forEach(button => {
@@ -201,6 +202,12 @@ module.exports = {
                             interaction.update({ content:  `${interaction.user}, I successfully deleted the process with **ID:** \`${id}\`!`, components: [row], ephemeral: true });
                         });
                     }
+                } catch(error) {
+                    row.components.forEach(button => {
+                      button.setDisabled(true);
+                    });
+                    interaction.update({ content:  `Oops ${interaction.user}, An error occurred!`, components: [row], ephemeral: true });
+                          } 
                 }
             });
 

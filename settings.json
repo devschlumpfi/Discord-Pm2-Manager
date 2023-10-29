@@ -1,6 +1,6 @@
 {
     "logsystem": true,
     "onlydm": false,
-    "language": "README.md",
-    "ownerid" : "README.md" 
+    "language": "Read.Me",
+    "ownerids" : ["Read.Me"]
 }

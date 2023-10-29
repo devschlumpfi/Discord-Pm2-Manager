@@ -73,8 +73,8 @@ client.on(Events.InteractionCreate, interaction => {
 				})
 			} else if(option.value) args.push(option.value)
 		}
-
-		if(interaction.user.id !== settings.ownerid) return interaction.reply({ content: "Oupss, Es sieht so aus also wärst du nicht der Besitzer dieses Bots!", ephemeral: true })
+		
+		if(!settings.ownerids.includes(interaction.user.id)) return interaction.reply({ content: "Oupss, Es sieht so aus also wärst du nicht der Besitzer dieses Bots!", ephemeral: true })
 
 		if(settings.onlydm === true) {
 			if(interaction.guild) return interaction.reply({ content: "Oupss, Du kannst diesen Command nur auf einem Server ausführen!", ephemeral: true })
@@ -112,7 +112,7 @@ client.on(Events.InteractionCreate, interaction => {
 				} else if(option.value) args.push(option.value)
 			}
 
-			if(interaction.user.id !== settings.ownerid) return interaction.reply({ content: "Oupss, It looks like you are not the owner of this bot!", ephemeral: true })
+			if(!settings.ownerids.includes(interaction.user.id))  return interaction.reply({ content: "Oupss, It looks like you are not the owner of this bot!", ephemeral: true })
 	
 			if(settings.onlydm === true) {
 				if(interaction.guild) return interaction.reply({ content: "Oupss, You can only execute this command on a server!", ephemeral: true })
